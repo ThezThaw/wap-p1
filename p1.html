@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin: 0;
+            color: white;
+        }
+
+        .sticky-head{
+            position: sticky;
+            height: 100px;
+            background-color: #202124;
+            top : 0;
+        }
+
+        .head-row1{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .head-row1-right{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .content-container{
+            background-color: #292a2d;
+        }
+
+        .content{
+            height: 1000px;
+            margin-left:10%;
+            margin-right:10%;            
+        }
+
+        .content-header{
+            height: 5%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .content-details{
+            display: flex;
+            border:1px solid red;
+        }
+
+        .content-round{
+            border-radius: 10px;
+            background-color: #202124;
+            padding:20px;
+            margin:5px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="sticky-head">
+        
+        <div class="head-row1">
+            <div>Google News</div>
+            <div>Search Bar</div>
+            <div class="head-row1-right">
+                <div>Two button</div>
+                <div>Tow Button</div>
+            </div>
+        </div>
+        <div class="head-row2"></div>
+
+    </div>
+    <div class="content-container">
+        
+
+
+
+
+        <div class="content">
+
+            <div class="content-header">
+                <div>
+                    Your Briefing
+                </div>
+                <div class="content-round">
+                    Weather
+                </div>
+            </div>
+
+            <div class="content-details">
+                <div class="content-round">
+                    <div>TopStoreies</div>
+                    <hr>
+                </div class="content-round">
+                <div class="content-round">
+                    Lorem ipsum dolor situri.
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
