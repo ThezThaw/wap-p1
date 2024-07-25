@@ -158,6 +158,9 @@ em{
     grid-template-columns: 2fr 1fr;
     padding: 20px 0px;
 }
+.local-news-details.topstories{
+    grid-template-columns: 3fr 1fr;
+}
 .local-news-details img{
     border-radius: 9px;
 }
